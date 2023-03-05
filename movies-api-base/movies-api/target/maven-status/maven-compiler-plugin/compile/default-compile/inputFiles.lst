@@ -1,0 +1,14 @@
+/home/elena/Público/Digital_House/BACK_Bimestre_2/Especializacion_Backend_2/proyecto-integrador/proyecto/movies-api-base/movies-api/src/main/java/com/digitalmedia/movies/model/dto/AddCommentRequest.java
+/home/elena/Público/Digital_House/BACK_Bimestre_2/Especializacion_Backend_2/proyecto-integrador/proyecto/movies-api-base/movies-api/src/main/java/com/digitalmedia/movies/service/MovieServiceImpl.java
+/home/elena/Público/Digital_House/BACK_Bimestre_2/Especializacion_Backend_2/proyecto-integrador/proyecto/movies-api-base/movies-api/src/main/java/com/digitalmedia/movies/controller/MoviesController.java
+/home/elena/Público/Digital_House/BACK_Bimestre_2/Especializacion_Backend_2/proyecto-integrador/proyecto/movies-api-base/movies-api/src/main/java/com/digitalmedia/movies/mapper/MovieMapper.java
+/home/elena/Público/Digital_House/BACK_Bimestre_2/Especializacion_Backend_2/proyecto-integrador/proyecto/movies-api-base/movies-api/src/main/java/com/digitalmedia/movies/model/Movie.java
+/home/elena/Público/Digital_House/BACK_Bimestre_2/Especializacion_Backend_2/proyecto-integrador/proyecto/movies-api-base/movies-api/src/main/java/com/digitalmedia/movies/config/SwaggerConfig.java
+/home/elena/Público/Digital_House/BACK_Bimestre_2/Especializacion_Backend_2/proyecto-integrador/proyecto/movies-api-base/movies-api/src/main/java/com/digitalmedia/movies/service/MovieService.java
+/home/elena/Público/Digital_House/BACK_Bimestre_2/Especializacion_Backend_2/proyecto-integrador/proyecto/movies-api-base/movies-api/src/main/java/com/digitalmedia/movies/model/dto/UpdateMovieRequest.java
+/home/elena/Público/Digital_House/BACK_Bimestre_2/Especializacion_Backend_2/proyecto-integrador/proyecto/movies-api-base/movies-api/src/main/java/com/digitalmedia/movies/exception/MovieNotFoundException.java
+/home/elena/Público/Digital_House/BACK_Bimestre_2/Especializacion_Backend_2/proyecto-integrador/proyecto/movies-api-base/movies-api/src/main/java/com/digitalmedia/movies/config/ErrorAttributesConfig.java
+/home/elena/Público/Digital_House/BACK_Bimestre_2/Especializacion_Backend_2/proyecto-integrador/proyecto/movies-api-base/movies-api/src/main/java/com/digitalmedia/movies/model/dto/MovieDto.java
+/home/elena/Público/Digital_House/BACK_Bimestre_2/Especializacion_Backend_2/proyecto-integrador/proyecto/movies-api-base/movies-api/src/main/java/com/digitalmedia/movies/repository/MovieRepository.java
+/home/elena/Público/Digital_House/BACK_Bimestre_2/Especializacion_Backend_2/proyecto-integrador/proyecto/movies-api-base/movies-api/src/main/java/com/digitalmedia/movies/MoviesApiApplication.java
+/home/elena/Público/Digital_House/BACK_Bimestre_2/Especializacion_Backend_2/proyecto-integrador/proyecto/movies-api-base/movies-api/src/main/java/com/digitalmedia/movies/model/dto/CreateMovieRequest.java

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/gateway-api-base/gateway-api/gateway-api.iml" filepath="$PROJECT_DIR$/gateway-api-base/gateway-api/gateway-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/movies-api-base/movies-api/movies-api.iml" filepath="$PROJECT_DIR$/movies-api-base/movies-api/movies-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ms-bills-base-v2/ms-bills/ms-bills.iml" filepath="$PROJECT_DIR$/ms-bills-base-v2/ms-bills/ms-bills.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/proyecto.iml" filepath="$PROJECT_DIR$/.idea/proyecto.iml" />
+      <module fileurl="file://$PROJECT_DIR$/users-service/users-service.iml" filepath="$PROJECT_DIR$/users-service/users-service.iml" />
+    </modules>
+  </component>
+</project>

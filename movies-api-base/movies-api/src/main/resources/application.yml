@@ -37,9 +37,12 @@ springdoc:
     groups-order: DESC
     disable-swagger-default-url: true
 server:
-  port: 8097
+  port: ${ PORT:8097 }
 
 eureka:
+  instance:
+    hostname: localhost
+    instance-id: ${spring.application.name}:${spring.application.instance_id:${random.value}}
   client:
     service-url:
       defaultZone: http://localhost:8761/eureka/

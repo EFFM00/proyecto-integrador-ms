@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/eureka-server/eureka-server.iml" filepath="$PROJECT_DIR$/eureka-server/eureka-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/gateway-api-base/gateway-api/gateway-api.iml" filepath="$PROJECT_DIR$/gateway-api-base/gateway-api/gateway-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/movies-api-base/movies-api/movies-api.iml" filepath="$PROJECT_DIR$/movies-api-base/movies-api/movies-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/ms-bills-base-v2/ms-bills/ms-bills.iml" filepath="$PROJECT_DIR$/ms-bills-base-v2/ms-bills/ms-bills.iml" />

@@ -37,8 +37,10 @@ springdoc:
     groups-order: DESC
     disable-swagger-default-url: true
 server:
-  port: 8085
+  port: 8097
 
 eureka:
   client:
-    enabled: false
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+    enabled: true

@@ -37,7 +37,7 @@ springdoc:
     groups-order: DESC
     disable-swagger-default-url: true
 server:
-  port: ${ PORT:8097 }
+  port: 8097
 
 eureka:
   instance:

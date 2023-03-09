@@ -13,23 +13,33 @@ spring:
             client-id: api-gateway
             client-secret: jcxRW1Zid1fG3z9XYaaob15f8Z87huJm
             authorization-grant-type: authorization_code
-            redirect_uri: 'http://localhost:9090/login/oauth2/code/keycloak/'
+            redirect_uri: http://localhost:9090
   cloud:
     gateway:
+      default-filters:
+        - TokenRelay
       discovery:
         locator:
           enabled: true
       routes:
         - id: users-service
-          uri: lb://USERS-SERVICE
+          uri: lb://users-service
           predicates:
             - Path=/api/users/**
           filters:
             - StripPrefix=2
+
         - id: movies-service
-          uri: lb://MOVIES-SERVICE
+          uri: lb://movies-service
           predicates:
             - Path=/api/movies/**
+          filters:
+            - StripPrefix=2
+
+        - id: ms-bill
+          uri: lb://ms-bill
+          predicates:
+            - Path=/api/bills/**
           filters:
             - StripPrefix=2
 

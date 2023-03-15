@@ -10,22 +10,4 @@ import java.util.List;
 import java.util.Optional;
 
 public class KeycloakRepository implements IUserRepository{
-
-    @Autowired
-    private Keycloak client;
-
-    @Value("${dh.keycloak.realm}")
-    private String realm;
-
-    @Override
-    public User validateAndGetUser(String username) {
-
-        UserRepresentation user = client.realm(realm).users().get(username).toRepresentation();
-        return  user;
-    };
-
-    Optional<User> getUserExtra(String username);
-
-    User saveUserExtra(User userExtra);
-
 }

@@ -8,6 +8,8 @@
         <option value="$PROJECT_DIR$/gateway-api-base/gateway-api/pom.xml" />
         <option value="$PROJECT_DIR$/ms-bills-base-v2/ms-bills/pom.xml" />
         <option value="$PROJECT_DIR$/eureka-server/pom.xml" />
+        <option value="$PROJECT_DIR$/facturacion/pom.xml" />
+        <option value="$PROJECT_DIR$/movies-api/pom.xml" />
       </list>
     </option>
   </component>

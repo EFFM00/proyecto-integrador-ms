@@ -9,10 +9,10 @@ spring:
             issuer-uri: http://localhost:8082/realms/digital-media
         registration:
           keycloak:
-            client-id: dh-media
-            client-secret: jcxRW1Zid1fG3z9XYaaob15f8Z87huJm
+            client-id: microservicios
+            client-secret: Z8l2Rgmx9bueLYxU9IO2gQIZZ5ToauPo
             scope: openid
-            redirect_uri: http://localhost:8095
+            redirect_uri: http://localhost:9098/
   datasource:
     url: jdbc:h2:mem:testdb;DB_CLOSE_DELAY=-1
     driverClassName: org.h2.Driver

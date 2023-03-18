@@ -4,7 +4,7 @@ import com.digitalmedia.users.model.User;
 
 import java.util.Optional;
 
-public interface IUserRepository {
+public interface  IUserRepository {
 
   User validateAndGetUser(String username);
 

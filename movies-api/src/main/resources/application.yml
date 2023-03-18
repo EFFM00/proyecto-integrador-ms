@@ -12,6 +12,10 @@ spring:
         provider:
           keycloak:
             issuer-uri: http://localhost:8082/realms/digital-media
+            authorization-uri: http://localhost:8082/realms/digital-media/protocol/openid-connect/auth
+            token-uri: http://localhost:8082/realms/digital-media/protocol/openid-connect/token
+            user-info-uri: http://localhost:8082/realms/digital-media/protocol/openid-connect/userinfos
+            jwk-set-uri: http://localhost:8082/realms/digital-media/protocol/openid-connect/certs
         registration:
           keycloak:
             client-id: microservicios

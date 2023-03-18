@@ -1,5 +1,0 @@
-com/msbills/MsBillsApplication.class
-com/msbills/models/Bill.class
-com/msbills/controller/BillController.class
-com/msbills/repositories/BillRepository.class
-com/msbills/service/BillService.class
